@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "579338479157",
+    "project_id": "carousel-a996b",
+    "storage_bucket": "carousel-a996b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579338479157:android:ef2dae78f60bcccb3e737c",
+        "android_client_info": {
+          "package_name": "com.carousel.firebase.example.carousel_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd07oPKs7mUx1x2ny_XWKoAPPe948KFIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
