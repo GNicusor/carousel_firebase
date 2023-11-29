@@ -25,15 +25,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class ImageList extends StatefulWidget {
   @override
   _ImageListState createState() => _ImageListState();
 }
-
 class _ImageListState extends State<ImageList> {
   Reference storageRef = FirebaseStorage.instance.ref().child('Images/');
-
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<List<String>>(
@@ -64,7 +61,6 @@ class _ImageListState extends State<ImageList> {
       },
     );
   }
-
   Future<List<String>> loadImages() async {
     List<String> imageUrls = [];
     await for (ListResult result in listAllPaginated(storageRef)) {
@@ -75,7 +71,6 @@ class _ImageListState extends State<ImageList> {
     }
     return imageUrls;
   }
-
   Stream<ListResult> listAllPaginated(Reference storageRef) async* {
     String? pageToken;
     do {
